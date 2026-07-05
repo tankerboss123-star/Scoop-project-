@@ -1,0 +1,29 @@
+users:
+  ifti@example.com:
+    username: ifti@example.com
+    articleIds:
+      - 1
+    commentIds:
+      - 1
+articles:
+  '1':
+    id: 1
+    title: vg
+    url: 'https://www.youtube.com/'
+    username: ifti@example.com
+    commentIds:
+      - 1
+    upvotedBy: []
+    downvotedBy: []
+    comments: []
+nextArticleId: 1
+comments:
+  '1':
+    id: 1
+    body: HEY I T WORKD
+    username: ifti@example.com
+    articleId: 1
+    upvotedBy:
+      - ifti@example.com
+    downvotedBy: []
+nextCommentId: 1
